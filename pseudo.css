@@ -1,0 +1,23 @@
+a:link{
+   color:red ; 
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: blue;
+}
+
+div:hover{
+    background-color: gray;
+}
+div:hover p{
+    display: block;
+    background-color:yellow;
+}
+p::first-line{
+    color: brown;
+}
